@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		DEA672B6286650A3008D5DCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672B5286650A3008D5DCB /* AppDelegate.swift */; };
 		DEA672B8286650A3008D5DCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672B7286650A3008D5DCB /* SceneDelegate.swift */; };
-		DEA672BA286650A3008D5DCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672B9286650A3008D5DCB /* ViewController.swift */; };
+		DEA672BA286650A3008D5DCB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672B9286650A3008D5DCB /* HomeViewController.swift */; };
 		DEA672BD286650A3008D5DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA672BB286650A3008D5DCB /* Main.storyboard */; };
 		DEA672BF286650A6008D5DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA672BE286650A6008D5DCB /* Assets.xcassets */; };
 		DEA672C2286650A6008D5DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA672C0286650A6008D5DCB /* LaunchScreen.storyboard */; };
+		DEA672CA28665308008D5DCB /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672C928665308008D5DCB /* MusicTableViewCell.swift */; };
+		DEA672CE286654D3008D5DCB /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672CD286654D3008D5DCB /* WebService.swift */; };
+		DEA672D02866554F008D5DCB /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA672CF2866554F008D5DCB /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEA672B2286650A3008D5DCB /* zort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA672B5286650A3008D5DCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEA672B7286650A3008D5DCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DEA672B9286650A3008D5DCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEA672B9286650A3008D5DCB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DEA672BC286650A3008D5DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DEA672BE286650A6008D5DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEA672C1286650A6008D5DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEA672C3286650A6008D5DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA672C928665308008D5DCB /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		DEA672CD286654D3008D5DCB /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		DEA672CF2866554F008D5DCB /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +64,14 @@
 			children = (
 				DEA672B5286650A3008D5DCB /* AppDelegate.swift */,
 				DEA672B7286650A3008D5DCB /* SceneDelegate.swift */,
-				DEA672B9286650A3008D5DCB /* ViewController.swift */,
+				DEA672B9286650A3008D5DCB /* HomeViewController.swift */,
 				DEA672BB286650A3008D5DCB /* Main.storyboard */,
 				DEA672BE286650A6008D5DCB /* Assets.xcassets */,
 				DEA672C0286650A6008D5DCB /* LaunchScreen.storyboard */,
 				DEA672C3286650A6008D5DCB /* Info.plist */,
+				DEA672C928665308008D5DCB /* MusicTableViewCell.swift */,
+				DEA672CD286654D3008D5DCB /* WebService.swift */,
+				DEA672CF2866554F008D5DCB /* Music.swift */,
 			);
 			path = zort;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA672BA286650A3008D5DCB /* ViewController.swift in Sources */,
+				DEA672BA286650A3008D5DCB /* HomeViewController.swift in Sources */,
 				DEA672B6286650A3008D5DCB /* AppDelegate.swift in Sources */,
 				DEA672B8286650A3008D5DCB /* SceneDelegate.swift in Sources */,
+				DEA672D02866554F008D5DCB /* Music.swift in Sources */,
+				DEA672CE286654D3008D5DCB /* WebService.swift in Sources */,
+				DEA672CA28665308008D5DCB /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
